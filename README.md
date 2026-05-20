@@ -72,10 +72,26 @@ double-check it before making an initial public commit.
 +-- tests/
 ```
 
-## Install
+## Quickstart
+
+Install and verify the CLI is working:
 
 ```bash
 python -m pip install -e .
+python -m awesome_design_md_ppt_images.cli --help
+```
+
+Expected output:
+
+```
+usage: design-md-ppt [-h] {convert} ...
+
+Convert DESIGN.md source files into presentation-image oriented DESIGN.md
+outputs.
+
+positional arguments:
+  {convert}
+    convert   Convert source DESIGN.md files into PPT-image DESIGN.md files.
 ```
 
 ## Quick start
